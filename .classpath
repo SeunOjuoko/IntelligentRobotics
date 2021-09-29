@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_202"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Dropbox/Teaching HW/2021-2022/F21RO/libRO/gluegen-rt-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Dropbox/Teaching HW/2021-2022/F21RO/libRO/j3dcore-1.6.0-scijava-1.jar"/>
+	<classpathentry kind="lib" path="D:/Dropbox/Teaching HW/2021-2022/F21RO/libRO/j3d-core-utils-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Dropbox/Teaching HW/2021-2022/F21RO/libRO/jmf-2.1.1e.jar"/>
+	<classpathentry kind="lib" path="D:/Dropbox/Teaching HW/2021-2022/F21RO/libRO/jogamp-fat.jar"/>
+	<classpathentry kind="lib" path="D:/Dropbox/Teaching HW/2021-2022/F21RO/libRO/jogl-all-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Dropbox/Teaching HW/2021-2022/F21RO/libRO/vecmath-1.6.0-scijava-1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
