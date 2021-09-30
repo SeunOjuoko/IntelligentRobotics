@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_202"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/openlogic-openjdk-jre-8u292-b10-windows-64">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/tags1/eclipse-workspace/F21RO-CW1b/src/gluegen-rt-2.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/tags1/eclipse-workspace/F21RO-CW1b/src/j3dcore-1.6.0-scijava-1.jar"/>
