@@ -2817,7 +2817,28 @@ public class robot extends Applet implements
  theta1, theta2, theta3 and theta4, all in radians
  */
 
-
+    	theta1 = (float) Math.atan2(py,px);
+    	float c1 = (float) (Math.cos(theta1));
+    	float s1 = (float) (Math.sin(theta1));
+    	float ax = (float) (Math.cos(theta1)*Math.sin(alpha));
+    	float ay = (float) (Math.sin(theta1)*Math.sin(alpha));
+    	float az = (float) (Math.cos(alpha));
+    	
+    	float theta234 = (float) Math.atan2(az,ax*c2+ay+a1);
+    	float s234 = (float) (Math.sin(theta234)); 
+    	float c234 = (float) (Math.cos(theta234));
+    	
+    	float p1 = px*c1+py*s1 - d4*c234;
+    	float p2 = px - d4*s234;
+    	float c3 = (p1*p1+p2*p2-d2*d2-d3*d3)/(2*d2*d3);
+    	
+    	theta3 = (float) Math.atan2(Math.sqrt(1-c3*c3), c3);
+    	float s3 = (float) (Math.sin(theta3));
+    	
+    	theta2 = (float) Math.atan2((d3*c3+d2)*p2-d3*s3*p1,(d3*c3+d2)*p1+d3*s3*p2);
+    	    	
+    	theta4 = (float) Math.atan2(az,ax*c1+ay*s1);
+    	
     }
 
 
